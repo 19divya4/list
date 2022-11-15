@@ -1,0 +1,62 @@
+#list=["flour","cheese","carrots"]
+#length=len(list)
+#i=0
+#while i<length:
+#    print(i,end=" ")
+ #   print(list[i])
+  #  i=i+1
+  
+  
+  
+#list=["flour","cheese","carrots"]
+#length=len(list)
+#for i in range (len(list)):
+ #   print(i, end=" ")
+  #  print(list[i])
+  
+"""list1=[['g','f','g'],['i','s'],['b','e','s','t']]
+list2=[]
+for i in list1:
+    list2.append(i)
+print(list2)"""
+
+
+#mylist=[6,1,3,5,6,3,1]
+#mylist=list(dict.fromkeys(mylist))
+#print(mylist)
+
+
+#Q.3
+#list1=[1,2,2,5,8,4,4,8]
+#list2=list(dict.fromkeys(list1))
+#print(list2)
+
+#Q.3
+
+a=[6,1,3,5,6,3]
+b=[]
+i=0
+p=1
+while i<len(a):
+  if a[i] not in b:
+    b.append(a[i])
+    #p=p*b[i]
+    print(b)
+    #print(p) 
+    i=i+1
+    
+    
+    #Q.4
+    
+#a=[1,2,2,5,8,4,4,8]  
+#b=[]
+#i=0
+#c=0
+#while i<len(a):
+ # if a[i] not in b:
+  #  c=c+1
+   # b.append(a[i])
+   # i=i+1
+    #print(c)
+    #print(b)
+  
